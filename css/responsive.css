@@ -1,0 +1,288 @@
+@media screen and ( max-width:767px )
+{
+
+.hide-p {
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+br {
+  display: none;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  height: 80vh;
+}
+
+.logo img {
+  width: 80vw;
+}
+
+.home-header {
+	background-position: left top;
+  background-image:url(../images/responsive.hero.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.about-hero {
+  background-image:url(../images/responsiveabout.jpg);
+  height: 60vh;
+}
+
+/* greeting */
+
+.greeting-container {
+  padding: 5px 0;
+  width: 100%;
+}
+
+
+h2 span {
+  font-size: 3.5rem;
+}
+
+.greeting-container h2 {
+  font-size: 3rem;
+}
+
+.greeting {
+  display: block;
+  padding-top: 0;
+}
+
+.content-header {
+  padding-top: 5px;
+}
+
+.greeting-image {
+  padding-top: 0px;
+  height: 50%;
+  width: 50%;
+}
+
+.message {
+  padding-top: 10%;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.message p {
+  font-size: 0.8em;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+/* reason */
+
+.features {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.feature {
+  width: 90%;
+  margin: 30px auto 0px auto;
+  padding-bottom: 30px;
+}
+
+.features-container h2{
+  padding-top: 50px;
+}
+
+/* criterion */
+
+.criterion-container {
+  margin: 50px auto 0 auto;
+  width: 90%;
+}
+
+.criterion-content {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.criterion-flexbox {
+  display: block;;
+  margin-top: 20px;
+}
+
+.criterion-content img {
+  height:300px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.box17 {
+  margin: 2rem auto 0 auto;
+  padding: 1.5em 1.5em;
+}
+
+.criterion-end {
+  width: 90%;
+  text-align: center;
+}
+
+/* flow */
+.flow-container {
+  margin: 50px auto 0 auto;
+}
+
+.flow {
+  display: block;
+  margin-top: 50px;
+}
+
+.flow-content {
+  width: 90%;
+  margin: 0 auto;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 3%;
+  margin-top: 30px;
+}
+
+/* footer */
+
+.footer-container {
+  display: block;
+  width: 90%;
+  padding-top: 10%;
+}
+
+.footer-container-left {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-container-right {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-container-right p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.responsive-block i {
+  display: block;
+}
+
+.header-link ul {
+  margin-top: 10%;
+}
+
+.header-link li {
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.copy {
+  font-size: 0.8rem;
+}
+
+/* about */
+
+.corporate {
+  width: 100%;
+}
+
+.row-1 {
+  width: 30%;
+}
+
+.head-3{
+  font-size: 1.5rem;
+}
+
+/* job-contents */
+
+.job-contents {
+  display: block;
+}
+
+.job-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.job-image img {
+  margin: 0 auto;
+  width: 350px;
+  height: 250px;
+}
+
+.job-description {
+  padding-top: 10%;
+}
+
+/* recruit */
+
+.recruit-message {
+  width: 100%;
+}
+
+.recruit-message h2 {
+  font-size: 1.3rem;
+}
+
+.recruit-message p {
+  width: 80%;
+  font-size: 1rem;
+}
+
+/* recruit-detail */
+
+.recruit {
+margin-bottom: 20%;
+}
+
+.recruit-detail-1 h2 {
+  font-size: 1.2rem;
+}
+
+.recruit-content {
+  display: block;
+  margin-top: 10%;
+
+}
+
+.recruit-left {
+  margin: 0 auto 10% auto;
+  width: 50%;
+  font-size: 1rem;
+}
+
+.recruit-detail-2 h2 {
+  font-size: 1.2rem;
+}
+
+.responsive-rec {
+  height: 10%;
+}
+
+/* access */
+
+.access {
+  padding-top: 0;
+}
+
+.map {
+  width: 90%;
+}
+
+.address {
+  width: 90%;
+}
+
+}
