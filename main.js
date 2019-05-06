@@ -32,3 +32,23 @@ $(window).scroll(function() {
     }
   });
 });
+
+// スライドイン
+$(window).on('load scroll', function(){
+
+  //itemのinnerをセレクタに指定
+  var elem = $('.boxInner');
+
+  elem.each(function () {
+
+    var isPlay = 'isPlay';
+
+    var elemOffset = $(this).offset().top;
+    var scrollPos = $(window).scrollTop();
+    var wh = $(window).height();
+
+    if(scrollPos > elemOffset - wh + (wh / 4)){
+      $(this).addClass(isPlay);
+    }
+  });
+});

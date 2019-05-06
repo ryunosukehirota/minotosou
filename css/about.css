@@ -12,7 +12,6 @@ nav ul {
 nav li {
   text-align: center;
   width: 10%;
-  margin-top: 20px;
 }
 
 .header a div:first-child{
@@ -164,14 +163,27 @@ nav.globalMenuSp.active {
 }
 
 /* philosophy */
-.philosophy-description {
+.philosophy-description h3 {
   width: 50%;
-  font-size: 1rem;
+  font-size: 1.8rem;
   line-height: 300%;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin: 15vh auto 0 auto;
+  padding: 0px;
+  background: rgb(21, 48, 63);
+  color: white;
+}
+
+.philosophy-description p {
+  width: 80%;
+  margin: 15vh auto 0 auto;
+  font-size: 1.2rem;
   letter-spacing: .5rem;
-  text-align: left;
-  margin: 10vh auto;
-  padding-bottom: 10vh;
+  text-align: center;
+  margin-bottom: 30vh;
+  padding: 20px 0;
+  line-height: 200%;
 }
 
 /* corporate */
@@ -259,7 +271,6 @@ right: .5em;
 /* job-contents */
 
 .jc-header {
-  padding-top: 8em;
   color: rgb(21, 48, 63);
 }
 
@@ -595,14 +606,14 @@ footer {
 
 #philosophy {
   display: block;
-  padding-top: 330px;
-  margin-top: -330px;
+  padding-top: 300px;
+  margin-top: -300px;
 }
 
 #corporate {
   display: block;
-  padding-top: 330px;
-  margin-top: -330px;
+  padding-top: 250px;
+  margin-top: -250px;
 }
 
 #job {
@@ -685,4 +696,61 @@ input,textarea {
 
 .foot-f {
   width: 100%;
+}
+
+/* animation */
+
+/* スライドイン */
+.box {
+  overflow: hidden;
+}
+
+.box .boxInner {
+  width: inherit;
+  opacity: 0;
+}
+
+.isPlay {
+  animation-name: play;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.8,0,.5,1);
+  position: relative;
+  opacity: 1 !important;
+}
+
+.isPlay:before {
+  animation-name: maskOut;
+  animation-duration: .5s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.8,0,.5,1);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient( 109.6deg,  rgba(21, 48, 63,1) 11.2%, rgba(255, 255, 255,.9) 91.1% );
+}
+
+@keyframes play {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes maskOut {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
 }
