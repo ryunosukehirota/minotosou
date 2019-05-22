@@ -20,6 +20,10 @@ nav li {
   padding-bottom: 8px;
 }
 
+li.hide {
+  margin-top: 20px;
+}
+
 .logo {
   margin-right: auto;
   width: 16%;
